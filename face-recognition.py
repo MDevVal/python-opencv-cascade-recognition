@@ -56,7 +56,6 @@ if __name__ == "__main__":
         print("Cannot open webcam")
         exit()
 
-    print("Press 'q' to quit.")
     while True:
         ret, frame = cap.read()
         if not ret:
